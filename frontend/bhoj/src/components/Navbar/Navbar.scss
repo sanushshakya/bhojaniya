@@ -1,0 +1,36 @@
+.navbar{
+    margin: 50px 100px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            p{
+                font-size: 3rem;
+                font-weight: 700;
+                color: #fe0000;
+                span{
+                    color: #ffbb0d;
+                }
+            }
+        }
+        .links{
+            display: flex;
+            gap: 50px;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        .user-info{
+            .user{
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+            }
+            .btns{
+                display: flex;
+                gap: 35px;
+            }
+        }
+    }
+}

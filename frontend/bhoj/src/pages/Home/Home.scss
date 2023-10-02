@@ -1,0 +1,90 @@
+.home{
+    margin: 50px 100px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        .feature{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: auto;
+                height: 750px;
+            }
+            .btns{
+                position: absolute;
+                background: transparent;
+                button{
+                    padding: 30px 50px;
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+            }
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            .left{
+                img{
+                    width: auto;
+                    height: 400px;
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                span{
+                    width: 800px;
+                }
+            }
+        }
+        .services{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    border: 1px solid #3abeb3;
+                    border-radius: 15px;
+                    padding: 50px 60px;
+                    width: 200px;
+                    img{
+                        width: auto;
+                        height: 80px;
+                    }
+                }
+            }
+        }
+        .gallery{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .box{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+                border: 1px solid #3abeb3;
+                padding: 50px;
+                border-radius: 20px;
+                .photos{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                }  
+            }
+            
+        }
+    }
+}
