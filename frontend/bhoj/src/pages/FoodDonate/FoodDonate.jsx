@@ -39,7 +39,7 @@ const FoodDonate = () => {
     axios.defaults.headers.common['Authorization'] = `Bearer ${access_token}`;
     try {
         const response = await axios.post('http://localhost:8000/api/fooddonations/create_food/', formData, { headers, withCredentials: true});
-        window.location.href = '/food'
+        window.location.href = '/congrats'
     } catch (error) {
         console.error(error.message);
         }

@@ -29,7 +29,7 @@ const Funding = () => {
     axios.defaults.headers.common['Authorization'] = `Bearer ${access_token}`;
     try {
         const response = await axios.post('http://localhost:8000/api/fundcontributions/create_fund/', formData, { headers, withCredentials: true});
-        window.location.href = '/fund'
+        window.location.href = '/congrats'
     } catch (error) {
         console.error(error.message);
         }
