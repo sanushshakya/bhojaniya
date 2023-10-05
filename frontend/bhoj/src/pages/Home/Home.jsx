@@ -77,7 +77,7 @@ const Home = () => {
             </div>
             <div className="box">
                 <div className="photos">
-                    {photos.slice(0,3).map(photo => (
+                    {photos.slice(0,2).map(photo => (
                         <Gallery item={photo} key={photo.id} />
                     ))}
                 </div>

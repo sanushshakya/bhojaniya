@@ -13,6 +13,7 @@ import FoodDonate from "./pages/FoodDonate/FoodDonate";
 import Funding from "./pages/Funding/Funding";
 import Congrats from "./pages/Congrats/Congrats";
 import Organizations from "./pages/Organizations/Organizations";
+import Galleries from "./pages/Gallery/Galleries";
 
 
 
@@ -51,6 +52,10 @@ function App() {
         {
           path: '/org',
           element: <Organizations />
+        },
+        {
+          path: '/gallery',
+          element: <Galleries />
         }
       ],
     },

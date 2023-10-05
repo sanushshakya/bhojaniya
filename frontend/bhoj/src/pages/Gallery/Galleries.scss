@@ -1,0 +1,18 @@
+.gallery {
+    margin: 100px;
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 50px;
+  
+      .image {
+        img {
+          width: 400px; // Ensure the image doesn't exceed its container width
+          height: 400px;   // Maintain the aspect ratio
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  

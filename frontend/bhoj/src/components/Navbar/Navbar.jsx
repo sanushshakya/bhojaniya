@@ -25,6 +25,7 @@ const Navbar = () => {
           <Link className='link' to='/fund'>Funding</Link>
           <Link className='link' to='/food'>Food Donate</Link>
           <Link className='link' to='/org'>Organizations</Link>
+          <Link className='link' to='/gallery'>Gallery</Link>
         </div>
         <div className="user-info">
           {user_name ? (
